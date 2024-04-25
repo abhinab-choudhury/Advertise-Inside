@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-function About() {
+function ErrorPage() {
   return (
     <div>
       <Navbar />
       <div className='flex align-middle justify-center w-100 font-extrabold text-2xl'>
-        About Page
+        Page Not Fount
       </div>
     </div>
   )
 }
 
-export default About
+export default ErrorPage
