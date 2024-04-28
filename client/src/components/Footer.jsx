@@ -14,7 +14,7 @@ function Footer() {
             <img className='w-[180px]' src={Logo} alt='Advertise Insight Logo' />
           </div>
           <div className='mobile:mb-2 font-extralight text-xxs mt-auto mb-auto'>
-            © 2024 Advertise Insight, All Rights Reserved.
+            © 2024 Advertise Insight Advertising Media All Rights Reserved.
           </div>
           <div className='flex gap-5'>
             <a href='/'>
