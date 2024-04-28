@@ -7,6 +7,8 @@ function Advertise() {
       <Navbar />
       <div className='flex justify-center align-middle font-extrabold font-2xl w-100 h-100'>
         Advertise Section
+
+        {/* Use YAP for validation and nodemailer for emailing */}
       </div>
     </div>
   )

@@ -5,6 +5,7 @@ export default async function createUser(req, res) {
   try {
     const { email, first_name, last_name } = req.body;
 
+
     if (!process.env.EMAIL || !process.env.PASSWORD) {
       return res.status(500).json({ message: 'Missing email or password credentials' });
     }
