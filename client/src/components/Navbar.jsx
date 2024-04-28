@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='w-100 p-6'>
+      <div className='w-full p-6'>
         <div className="backdrop-blur-[10px] fixed top-0 z-50 w-[100vw] mb-10 h-20 mobile:h-fit flex justify-between align-middle">
           <div className='p-4 w-[85vw] flex justify-between align-middle ml-auto mr-auto'>
             <img className='mobile:w-[210px] tablet:w-[200px] laptop:w-[247px] desktop:w-[290px]' src={Logo} alt="Advertise_Insides.svg" />

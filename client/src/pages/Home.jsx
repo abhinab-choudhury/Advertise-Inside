@@ -12,7 +12,7 @@ function Herosection() {
         <div className="w-[90vw] mobile:h-fit laptop:w-[60vw] laptop:h-fit bg-gradient-to-br from-20% from-blue-700 via-60% via-[color:#B1C7FF] to-96% to-blue-900 roun rounded-2xl">
           <img className='flex ml-auto mr-auto mt-9 laptop:w-[650px] mobile:w-[80vw] mobile:rounded-[10px]' src={Bottle} alt="Bottle-Image.jpg" />
           <div className='relative -top-[30px] laptop:left-12 laptop:-top-[70px] left-4 ml-auto mr-auto px-4 bg-[color:#2770CC] bg-opacity-80 rounded-[10px] laptop:w-[26vw] laptop:p-8 laptop:leading-10 mobile:w-[65vw] h-fit p-1'>
-            <span className="text-white mobile:text-2xl tablet:text-3xl laptop:text-[2.8rem] desktop:text-[3.0rem] font-bold font-['Kalam'] capitalize">Uplift Lives with Every Sip</span>
+            <span className="text-white mobile:text-2xl tablet:text-3xl laptop:text-[2.8rem] desktop:text-[3.0rem] font-bold font-['Kalam'] capitalize leading-snug">Uplift Lives with Every Sip</span>
           </div>
 
           <div className='m-5 font-["Inter"] laptop:w-[70%] mobile:w-[90%] mr-auto ml-auto font-extrabold bg-white bg-opacity-15 p-2 rounded-[10px]'>
@@ -63,6 +63,17 @@ function Herosection() {
             solutions ensure maximum visibility for your business without breaking the bank. With Advertise Insight, you can reach a wide audience
             while staying environmentally friendly. Join us in revolutionizing the advertising industry today!
           </div>
+        </div>
+      </section>
+
+      <section className='bg-sky-500'>
+        <div className='flex flex-col justify-center align-middle'>
+          <h3 className='text-3xl flex justify-center my-4 font-semibold text-white'>Step into a new age with us</h3>
+          <p className='text-center w-[70%] flex ml-auto mr-auto mb-10 '>
+            At Advertise Insight, we're revolutionizing advertising by clean Drinking water bottles, all while championing philanthropy and
+            sustainability. With every sip, 10 paisa goes towards supporting the Indian homeless fund. Just a 10% adoption rate from our Indian community is all it takes to ensure a
+            lasting solution to India's water crisis
+          </p>
         </div>
       </section>
 
