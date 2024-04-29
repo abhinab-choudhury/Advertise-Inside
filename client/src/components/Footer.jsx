@@ -7,8 +7,8 @@ import Twitter from './../assets/img/twitter.png'
 function Footer() {
   return (
     <>
-      <div className='mobile:block flex laptop:flex-col justify-center align-middle'>
-        <hr className='w-[98vw] border-2 border-blue-900 my-5 ml-auto mr-auto' />
+      <div className='mobile:block mobile:w-fit flex laptop:flex-col justify-center align-middle'>
+        <hr className='w-[100vw] border-2 border-blue-900 my-5 mx-auto' />
         <div className='mobile:block flex laptop:flex p-8 justify-evenly align-middle'>
           <div className='mt-auto mb-auto mobile:mb-2'>
             <img className='w-[180px]' src={Logo} alt='Advertise Insight Logo' />
