@@ -81,7 +81,7 @@ function Herosection() {
 
         <section className='bg-sky-500 mobile:w-fit '>
           <div className='flex flex-col justify-center align-middle'>
-            <h3 className='mobile:mx-auto text-center text-3xl flex justify-center my-4 font-semibold text-white'>Step into a new age with us</h3>
+            <h3 className='mobile:mx-4 text-center text-3xl flex justify-center my-4 font-semibold text-white'>Step into a new age with us</h3>
             <p className='text-center w-[70%] flex ml-auto mr-auto mb-10 '>
               At Advertise Insight, we're revolutionizing advertising by clean Drinking water bottles, all while championing philanthropy and
               sustainability. With every sip, 10 paisa goes towards supporting the Indian homeless fund. Just a 10% adoption rate from our Indian community is all it takes to ensure a
