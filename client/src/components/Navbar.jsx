@@ -37,7 +37,7 @@ function Navbar() {
               <Link to="/" className="text-blue-700 hover:rounded-[10px] p-2 hover:underline">
                 Home
               </Link>
-              {/* <Link className='hover:rounded-[10px] p-2 hover:underline' to="/advertise">advertise</Link> */}
+              <Link className='hover:rounded-[10px] p-2 hover:underline' to="/advertise">advertise</Link>
               <Link className='hover:rounded-[10px] p-2 hover:underline' to="/contactus">Contact Us</Link>
             </ul>
           </div>
