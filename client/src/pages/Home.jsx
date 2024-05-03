@@ -35,7 +35,7 @@ function Herosection() {
             <div className='p-10'>
               <div className='mobile:flex-col flex gap-10 justify-center'>
                 <div>
-                  <div className='text-xl'>Features</div>
+                  <h1 className='text-xl'>Features</h1>
                   <div className='text-4xl'>Innovative Features of Advertise Insight</div>
                 </div>
                 <div className='mobile:flex-col laptop:flex-row flex justify-center gap-10'>
@@ -68,9 +68,9 @@ function Herosection() {
 
         <section>
           <div className='p-10 flex-col laptop:py-36'>
-            <div className='flex justify-center desktop::text-6xl laptop:text-5xl mobile:text-3xl tablet:2xl'>
+            <h1 className='flex justify-center desktop::text-6xl laptop:text-5xl mobile:text-3xl tablet:2xl'>
               Why Choose Advertise Insight for Your Advertising Needs?
-            </div>
+            </h1>
             <div className='laptop:flex mobile:block mobile:m-5 laptop:ml-auto laptop:mr-auto mt-10 text-center w-[80%]'>
               Advertise Insight offers a unique and innovative way to promote your brand through water bottles. Our cost-effective advertising
               solutions ensure maximum visibility for your business without breaking the bank. With Advertise Insight, you can reach a wide audience
@@ -81,7 +81,7 @@ function Herosection() {
 
         <section className='bg-sky-500 mobile:w-fit '>
           <div className='flex flex-col justify-center align-middle'>
-            <h3 className='mobile:mx-4 text-center text-3xl flex justify-center my-4 font-semibold text-white'>Step into a new age with us</h3>
+            <h1 className='mobile:mx-4 text-center text-3xl flex justify-center my-4 font-semibold text-white'>Step into a new age with us</h1>
             <p className='text-center w-[70%] flex ml-auto mr-auto mb-10 '>
               At Advertise Insight, we're revolutionizing advertising by clean Drinking water bottles, all while championing philanthropy and
               sustainability. With every sip, 10 paisa goes towards supporting the Indian homeless fund. Just a 10% adoption rate from our Indian community is all it takes to ensure a

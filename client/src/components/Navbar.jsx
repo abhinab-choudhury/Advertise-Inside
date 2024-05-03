@@ -21,7 +21,7 @@ function Navbar() {
                 <Link to="/" className="text-blue-700">
                   Home
                 </Link>
-                {/* <Link to="/advertise">advertise</Link> */}
+                <Link to="/advertise">advertise</Link>
                 <Link to="/contactus">Contact Us</Link>
               </ul>
 
