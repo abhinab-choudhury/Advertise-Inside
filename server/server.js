@@ -1,10 +1,7 @@
-import dotenv from 'dotenv'
-dotenv.config({ path: './env' })
-
-import express, { urlencoded } from 'express'
+import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from "cors"
-import connectDB from './db/index.js'
+import { connectDB } from './db/index.js'
 import appRouter from './routes/index.js'
 
 

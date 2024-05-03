@@ -5,6 +5,8 @@ import Target from './../assets/img/target.png'
 import Cube from './../assets/img/cube.png'
 import Coin from './../assets/img/coin.png'
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 function Herosection() {
   return (
     <>
@@ -14,7 +16,7 @@ function Herosection() {
         </section>
         <section className='flex justify-center align-middle my-20'>
           <div className="w-[90vw] mobile:h-fit laptop:w-[60vw] laptop:h-fit bg-gradient-to-br from-20% from-blue-700 via-60% via-[color:#B1C7FF] to-96% to-blue-900 roun rounded-2xl">
-            <img className='flex ml-auto mr-auto mt-9 laptop:w-[650px] mobile:w-[80vw] mobile:rounded-[10px]' src={Bottle} alt="Bottle-Image.jpg" />
+            <LazyLoadImage className='flex ml-auto mr-auto mt-9 laptop:w-[650px] mobile:w-[80vw] mobile:rounded-[10px]' src={Bottle} alt="Bottle-Image.jpg" />
             <div className='relative -top-[30px] laptop:left-12 laptop:-top-[70px] left-4 ml-auto mr-auto px-4 bg-[color:#2770CC] bg-opacity-80 rounded-[10px] laptop:w-[26vw] laptop:p-8 laptop:leading-10 mobile:w-[65vw] h-fit p-1'>
               <span className="text-white mobile:text-2xl tablet:text-3xl laptop:text-[2.8rem] desktop:text-[3.0rem] font-bold font-['Kalam'] capitalize leading-snug">Uplift Lives with Every Sip</span>
             </div>

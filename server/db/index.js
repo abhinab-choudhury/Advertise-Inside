@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const DB_NAME = 'DB';
 
-export default connectDB = async () => {
+export const connectDB = async () => {
   try {
     let connectionInstance = await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
     // we have different server for production and developement, this line gives a better idea 

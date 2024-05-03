@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Home from "./pages/Home"
 import Advertise from './pages/Advertise'
 import ContactUs from "./pages/ContactUs"
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
+      <SpeedInsights />
     </>
   )
 }

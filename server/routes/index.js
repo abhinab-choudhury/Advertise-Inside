@@ -59,7 +59,7 @@ function indexPage(req, res) {
 </head>
 
 <body>
-  <div class="conatiner">
+  <div className="conatiner">
     <main>
       <section>
         <h1> Advertise Insight </h1>
