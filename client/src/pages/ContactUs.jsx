@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import ContactUsForm from '../components/ContactUsForm'
 import Footer from '../components/Footer'
 
 function ContactUs() {
@@ -8,7 +9,7 @@ function ContactUs() {
       <section>
         <Navbar />
       </section>
-      <section className='flex laptop:mt-[4%] tablet:mt-[6%] mobile:mt-[20%] w-[100vw] justify-center'>
+      <section className='flex laptop:mt-[4%] tablet:mt-[6%] mobile:mt-[20%] w-[100vw] justify-evenly'>
         <div className='font-extrabold text-3xl bg-blue-300 bg-opacity-20 h-fit laptop:p-20 mobile:p-4 mobile:w-fit mobile:rounded-[10px] laptop:rounded-[20px] mt-20'>
           <div className='desktop:text-[4.2rem] laptop:text-[3.8rem] tablet:text-[3.8rem]'>
             CONTACT US
@@ -23,6 +24,9 @@ function ContactUs() {
               </code>
             </div>
           </div>
+        </div>
+        <div className='flex font-bold justify-center ml-4 mt-20 align-middle w-100'>
+          <ContactUsForm title={"Contact"} />
         </div>
       </section>
       <section className='mt-20'>

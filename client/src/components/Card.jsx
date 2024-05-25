@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Card() {
+function Card({ price, nfb, plan_type }) {
   return (
     <>
       <div className='flex gap-10'>
         <div className="w-fit laptop:w-auto mobile:w-[80vw] max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
-          <h5 className="mb-4 text-xl font-medium text-gray-500 ">Standard plan</h5>
+          <h5 className="mb-4 text-xl font-medium text-gray-500 ">{plan_type}</h5>
           <div className="flex items-baseline text-gray-900">
-            <span className="text-3xl font-semibold">$</span>
-            <span className="text-5xl font-extrabold tracking-tight">49</span>
-            <span className="ms-1 text-xl font-normal text-gray-500 ">/month</span>
+            <span className="text-3xl font-semibold">Rs.</span>
+            <span className="text-5xl font-extrabold tracking-tight">{price}</span>
+            <span className="ms-1 text-xl font-normal text-gray-500 ">/ {nfb} bottles</span>
           </div>
           <ul role="list" className="space-y-5 my-7">
             <li className="flex items-center">
