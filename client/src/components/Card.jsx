@@ -4,7 +4,7 @@ function Card() {
   return (
     <>
       <div className='flex gap-10'>
-        <div className="w-full laptop:w-auto mobile:w-[80vw] max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
+        <div className="w-fit laptop:w-auto mobile:w-[80vw] max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 ">
           <h5 className="mb-4 text-xl font-medium text-gray-500 ">Standard plan</h5>
           <div className="flex items-baseline text-gray-900">
             <span className="text-3xl font-semibold">$</span>

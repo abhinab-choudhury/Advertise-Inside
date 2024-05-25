@@ -1,12 +1,12 @@
 import mongoose, { model, models } from "mongoose";
 
 const CompanyAddressSchema = new mongoose.Schema({
-  state: {
+  street_address: {
     type: String,
     require: true,
     trim: true
   },
-  district: {
+  city: {
     type: String,
     require: true,
     trim: true
@@ -15,13 +15,7 @@ const CompanyAddressSchema = new mongoose.Schema({
     type: Number,
     length: 6,
     require: true
-  },
-  address: {
-    type: String,
-    require: true,
-    trim: true
   }
-
 }, {
   timestamps: true
 })
