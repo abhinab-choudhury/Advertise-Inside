@@ -21,7 +21,7 @@ function Advertise() {
           </div>
         </div>
         <div className='border-2 border-black mx-8 mobile:mb-8 tablet:mb-8'></div>
-        <div className='laptop: p-[55px] backdrop-blur-[10px] z-[50px] mx-auto font-["Inter"] flex flex-col justify-center items-center font-extrabold font-xl'>
+        <div className='laptop:w-[50 tablet:w-[50%] mobile:w-[100%] p-[55px] backdrop-blur-[10px] z-[50px] mx-auto font-["Inter"] flex flex-col justify-center items-center font-extrabold font-xl'>
           <ContactUsForm title="Contact Us" />
           {/* Use YAP for validation and nodemailer for emailing */}
         </div>

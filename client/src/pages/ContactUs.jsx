@@ -25,8 +25,8 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <div className='w-[50%] flex font-bold justify-center mt-20 align-middle w-100'>
-          <ContactUsForm title={"Contact"} />
+        <div className='laptop:w-[50%] tablet:w-[50%] mobile:w-[100%] flex font-bold justify-center mt-20 align-middle w-100'>
+          <ContactUsForm title={"Contact Form"} />
         </div>
       </section>
       <section className='mt-20'>
