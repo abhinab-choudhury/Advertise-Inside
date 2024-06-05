@@ -14,12 +14,18 @@ function ContactUs() {
           <div className='desktop:text-[4.2rem] laptop:text-[3.8rem] tablet:text-[3.8rem]'>
             CONTACT US
             <div className='font-normal leading-3 mobile:text-xl mt-10 flex flex-col'>
-              <span>Phone.No : </span> <code>+91 xxx-xxx-xxxx</code> <br />
-              <span>Email : </span> <code>email@gmail.com</code> <br />
-              <span>Address: </span> <br />
+              <div className='my-3'>
+                <span>Phone.No : </span> <code>+91 94717 43335</code>
+              </div>
+              <div className='my-3'>
+                <span>Email : </span> <code>pkranjan1046@gmail.com</code>
+              </div>
+              <div className='mt-3'>
+                <span>Address: </span><code> ITER-Collage, BBSR</code>
+              </div>
               <code>
-                state, district, lane.No: xx <br />
-                zip-code: XX-XX-XX <br />
+                Odisha, Khordha district<br />
+                zip-code: 75-10-30 <br />
                 address: Close to BUS Stand
               </code>
             </div>

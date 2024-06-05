@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import PropTypes from 'prop-types';
+
 // import DangerAlert from './DangerAlert'
 // import SuccessAlert from './SuccessAlert'
 
@@ -69,5 +71,5 @@ function UserForm({ title }) {
   )
 }
 
-UserForm.propTypes = { title: String };
+UserForm.propTypes = { title: PropTypes.string.isRequired };
 export default UserForm

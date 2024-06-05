@@ -1,4 +1,4 @@
-import React from 'react'
+import propTypes from 'prop-types'
 
 function AddressForm({ title }) {
   const submitHandler = (event) => {
@@ -49,6 +49,10 @@ function AddressForm({ title }) {
       </div>
     </>
   )
+}
+
+AddressForm.propTypes = {
+  title: propTypes.string.isRequired
 }
 
 export default AddressForm

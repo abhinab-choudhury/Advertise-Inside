@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types';
 
 function Card({ price, nfb, plan_type }) {
   return (
@@ -54,5 +54,11 @@ function Card({ price, nfb, plan_type }) {
     </>
   )
 }
+Card.propTypes = {
+  price: PropTypes.string.isRequired,
+  nfb: PropTypes.number.isRequired,
+  plan_type: PropTypes.string.isRequired
+}
+
 
 export default Card

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Logo from './../assets/svg/Advertise_Insight.svg'
 import Menu from './../assets/img/menu.png'
 import { NavLink } from 'react-router-dom';
