@@ -16,8 +16,8 @@ function Advertise() {
           <div className='mr-auto text-lg'>Reach Millions. Target Precisely.<br /> <strong className='text-bold'>Advertise Insight:</strong> Your Gateway to Effective Advertising in India.</div>
           <div className='border-2 border-gray-500 w-[100%] mx-auto my-4'></div>
           <div className='w-[100%] flex justify-evenly mb-10 gap-10 laptop:overflow-hidden mobile:overflow-scroll'>
-            <Card price={5000} nfb={500} plan_type={"Standard plan"} />
-            <Card price={8500} nfb={1000} plan_type={"Pro plan"} />
+            <Card price={"7,999.00"} nfb={500} plan_type={"Standard plan"} />
+            <Card price={"14,999.00"} nfb={1000} plan_type={"Pro plan"} />
           </div>
         </div>
         <div className='border-2 border-black mx-8 mobile:mb-8 tablet:mb-8'></div>
